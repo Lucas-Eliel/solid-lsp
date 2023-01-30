@@ -4,16 +4,16 @@ public class AnimalService {
 
     public static void main(String[] args) {
 
-        System.out.println("Animal: Avestruz");
+        System.out.println("Animal: Ostrich");
         Ostrich ostrich = new Ostrich();
         ostrich.toEat();
 
-        System.out.println("Animal: Papagaio");
+        System.out.println("Animal: Parrot");
         Parrot parrot = new Parrot();
         parrot.toEat();
         parrot.toFly();
 
-        System.out.println("Animal: Pinguim");
+        System.out.println("Animal: Penguin");
         Penguin penguin = new Penguin();
         penguin.toEat();
     }
